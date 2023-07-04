@@ -163,11 +163,6 @@ p {
     padding: 0 15px;
     font-size: 16px;
 }
-/* Estilo para la sección de Propuestas */
-.about {
-    background: #171717;
-    padding: 30px;
-}
 
 .about {
     background: #171717;
@@ -191,42 +186,6 @@ p {
     .sau {
         height: 100vh;
     }
-    .dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-btn {
-    background-color: #9c27b0;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 10px;
-}
-
-.dropdown-content ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.dropdown-content li {
-    margin-bottom: 10px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 
     .navbar {
         display: none;
