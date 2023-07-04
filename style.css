@@ -163,7 +163,34 @@ p {
     padding: 0 15px;
     font-size: 16px;
 }
+/* Estilo para la sección de Propuestas */
+.about {
+    background: #171717;
+    padding: 30px;
+}
 
+.list-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 50vh; /* Ajusta la altura máxima de la lista de propuestas según tus necesidades */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si el contenido excede la altura máxima */
+}
+
+.list-container ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list-container li {
+    color: #000;
+    background-color: #fff194;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
 .about {
     background: #171717;
 }
